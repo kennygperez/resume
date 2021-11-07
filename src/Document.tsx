@@ -34,7 +34,7 @@ const Document: FunctionComponent = () => {
 			title: 'Software Engineer',
 			time: 'January 2018 - Present',
 			responsibilities:
-				'Working within the Visuals by Impulse (VBI) division. building and maintain various applications and services, focused on backend, DevOps, mobile app development, and our AWS infrastructure. Also provide mentorship to junior developers.',
+				'Working within the Visuals by Impulse (VBI) division. Building and maintaining various applications and services. Communicating with clients/stakeholders to define project requirements. Focused on backend, DevOps, mobile app development, project management, and our AWS infrastructure. Also providing mentorship to junior developers.',
 			projects: [
 				{
 					name: 'Lachlan Computer Vision Facecam',
