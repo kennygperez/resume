@@ -83,9 +83,10 @@ const Document: FunctionComponent = () => {
 			'Python (Django, Flask)',
 			'WordPress',
 			'Serverless Framework',
+			'Java',
 		],
 		Mobile: ['React Native', 'Expo'],
-		Native: ['C/C++', 'Java'],
+		Native: ['C/C++', 'Java', 'ElectronJS'],
 		Database: ['MySQL', 'PostgreSQL', 'MongoDB'],
 		DevOps: [
 			'AWS (EC2, S3, CodeDeploy, ElasticBeanstalk, Route 53, Lambda)',
