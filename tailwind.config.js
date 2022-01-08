@@ -8,7 +8,7 @@ module.exports = {
 	theme: {
 		fontSize: {
 			lg: '18pt',
-			xl: '24pt',
+			xl: '26pt',
 			'2xl': '36pt',
 			'3xl': '48pt',
 			'4xl': '64pt',
