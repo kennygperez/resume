@@ -82,7 +82,7 @@ export const projects: Project[] = [
 		name: 'Super Maker',
 		link: 'https://visualsbyimpulse.com/tools/super-maker',
 		feats: [
-			'Lead the development of the super maker, a user-driven video maker.',
+			'Lead the development of the super maker a web application that take user data and renders a video.',
 			'Was able to achieve faster render times than our competitors.',
 			'Implemented a proprietary server swarm scaler, and queue system to handle user jobs.',
 		],
@@ -99,8 +99,8 @@ export const projects: Project[] = [
 		name: 'UCFHere',
 		link: 'https://digitallearning.ucf.edu/newsroom/newsletter/new-for-fall-ucf-here-attendance-now-supports-combined-courses/?frame=0',
 		feats: [
-			'QRCode based attendance application utilizing a React Native + Expo mobile app and LTI enabled Python/Django web application.',
-			'Lead development of the mobile application, and got it production-ready',
+			'QRCode based attendance mobile app utilizing React Native + Expo and LTI enabled Python/Django web application.',
+			'Lead development of the mobile application, and got it production-ready.',
 		],
 	},
 ];
