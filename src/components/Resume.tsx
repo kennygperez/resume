@@ -61,7 +61,7 @@ export const Resume: FunctionComponent = () => (
 					{experiences.map((experience, index, { length }) => (
 						<div
 							key={experience.companyName}
-							className={index < length - 1 ? 'mb-1' : ''}
+							className={index < length -1 ? 'mb-2' : ''}
 						>
 							<div>
 								<span className='font-medium'>{experience.companyName}</span>
@@ -85,7 +85,7 @@ export const Resume: FunctionComponent = () => (
 					{projects.map((project, index, { length }) => (
 						<div
 							key={project.name}
-							className={index < length - 1 ? 'mb-1' : ''}
+							className={index < length - 1 ? 'mb-2' : ''}
 						>
 							<div className='font-medium'>
 								<a href={project.link}>{project.name}</a>
@@ -116,7 +116,7 @@ export const Resume: FunctionComponent = () => (
 					{Object.keys(skills).map((skillGroupName, index, { length }) => (
 						<div
 							key={skillGroupName}
-							className={index < length - 1 ? 'mb-1' : ''}
+							className={index < length - 1 ? 'mb-2' : ''}
 						>
 							<div className='font-medium'>{skillGroupName}</div>
 							<div className='text-gray-600'>
