@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './index.css';
-import Document from './Document';
+import { Resume } from './components/Resume';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Document />
+		<Resume />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
