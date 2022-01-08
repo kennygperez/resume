@@ -58,7 +58,7 @@ export const Resume: FunctionComponent = () => (
 						>
 							<div>
 								<span className='font-medium'>{experience.companyName}</span>
-								&nbsp;- &nbsp;
+								&nbsp;-&nbsp;
 								<span>{experience.title}</span>
 							</div>
 							<Period period={experience.period} />
@@ -99,7 +99,7 @@ export const Resume: FunctionComponent = () => (
 			<div className='col-span-3 row-span-8'>
 				<H2>Education</H2>
 				<Section>
-					<div>{education.school}</div>
+					<div className='font-medium'>{education.school}</div>
 					<div>{education.degree}</div>
 					<Period period={education.period} />
 				</Section>
