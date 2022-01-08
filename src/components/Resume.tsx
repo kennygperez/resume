@@ -61,7 +61,7 @@ export const Resume: FunctionComponent = () => (
 					{experiences.map((experience, index, { length }) => (
 						<div
 							key={experience.companyName}
-							className={index < length -1 ? 'mb-2' : ''}
+							className={index < length - 1 ? 'mb-2' : ''}
 						>
 							<div>
 								<span className='font-medium'>{experience.companyName}</span>
