@@ -7,4 +7,4 @@ interface SectionProps {
 export const Section: FunctionComponent<SectionProps> = ({
 	children,
 	noMarginBottom = false,
-}) => <div className={noMarginBottom ? '' : 'mb-4'}>{children}</div>;
+}) => <div className={noMarginBottom ? '' : 'mb-10'}>{children}</div>;
