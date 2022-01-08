@@ -43,8 +43,8 @@ export const experiences: Experience[] = [
 			end: 'Present',
 		},
 		responsibilities: [
-			'Researching and creating development solutions for the marketplace under Elgato.',
-			'Continuing the work of the computer vision project to productize it to a general audience.',
+			'Developing the backend with Django on the marketplace.',
+			'Working within the research and development team to create innovative products.',
 		],
 	},
 	{
@@ -55,9 +55,9 @@ export const experiences: Experience[] = [
 			end: 'May 2021',
 		},
 		responsibilities: [
-			'Developed a new marketplace and computer vision-powered overlay that projected the company to eventually be acquired by Corsair under Elgato.',
-			'Developed solutions for high-profile clients.',
-			'Lead the development of a proprietary CRM for the team to increase productivity and solve workflow issues to communicate with clients more effectively.',
+			'Developed a new marketplace and computer vision-powered overlay that projected VBI to eventually be acquired by Corsair under Elgato.',
+			'Led and established best practices with Point Zero to improve product quality for high-profile clients.',
+			'Led the development of a proprietary CRM for VBI to increase productivity and solve workflow issues to communicate with clients more effectively.',
 			'Provided mentorship for junior developers.',
 			'Established development best practices at VBI.',
 		],
@@ -70,9 +70,9 @@ export const experiences: Experience[] = [
 			end: 'August 2020',
 		},
 		responsibilities: [
-			"Lead the department's venture into mobile app development.",
+			"Led the department's venture into mobile app development.",
 			'Built cost-effective solutions for students and teachers.',
-			'Contributed to UCF Open projects, like CanvasAPI and UDOIT',
+			'Contributed to UCF Open projects, like CanvasAPI and UDOIT.',
 		],
 	},
 ];
