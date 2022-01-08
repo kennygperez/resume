@@ -21,13 +21,20 @@ import {
 import { Period } from './Period';
 import { Section } from './Section';
 
+const DEBUG: boolean = false;
+
 function formatPhone(uglyPhone: string): string {
 	return `${phone.slice(0, 3)}.${phone.slice(3, 6)}.${phone.slice(6, 10)}`;
 }
 
 export const Resume: FunctionComponent = () => (
 	<Document>
-		<div className='grid grid-rows-9 grid-cols-8 gap-y-12 gap-x-12 w-full h-full'>
+		<div
+			className={
+				'grid grid-rows-9 grid-cols-8 gap-y-12 gap-x-12 w-full h-full' +
+				(DEBUG ? ' bg-red-400' : '')
+			}
+		>
 			{/* WHO */}
 			<div className='col-span-5 row-span-1'>
 				<H1>{name}</H1>
