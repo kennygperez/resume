@@ -4,13 +4,12 @@ import { Document } from './Document';
 import { H1 } from './H1';
 import { H2 } from './H2';
 import { H3 } from './H3';
-
+import { Period } from './Period';
+import { Section } from './Section';
 import {
-	awards,
 	education,
 	email,
 	experiences,
-	languages,
 	name,
 	phone,
 	projects,
@@ -18,8 +17,6 @@ import {
 	title,
 	website,
 } from '../data/info';
-import { Period } from './Period';
-import { Section } from './Section';
 
 const DEBUG: boolean = false;
 
@@ -104,13 +101,6 @@ export const Resume: FunctionComponent = () => (
 
 			{/* INFO */}
 			<div className='col-span-3 row-span-8'>
-				<H2>Education</H2>
-				<Section>
-					<div className='font-medium'>{education.school}</div>
-					<div>{education.degree}</div>
-					<Period period={education.period} />
-				</Section>
-
 				<H2>Skills</H2>
 				<Section>
 					{Object.keys(skills).map((skillGroupName, index, { length }) => (
@@ -126,14 +116,11 @@ export const Resume: FunctionComponent = () => (
 					))}
 				</Section>
 
-				<H2>Awards</H2>
+				<H2>Education</H2>
 				<Section>
-					<div className='text-gray-600'>{awards.join(', ')}</div>
-				</Section>
-
-				<H2>Languages</H2>
-				<Section noMarginBottom={true}>
-					<div className='text-gray-600'>{languages.join(', ')}</div>
+					<div className='font-medium'>{education.school}</div>
+					<div>{education.degree}</div>
+					<Period period={education.period} />
 				</Section>
 			</div>
 		</div>

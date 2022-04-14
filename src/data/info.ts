@@ -25,13 +25,9 @@ interface Project {
 type Skills = Record<string, string[]>;
 
 export const name: string = 'Kenny G Perez';
-
 export const title: string = 'Software Engineer';
-
 export const email: string = 'kennygperez@gmail.com';
-
 export const phone: string = '4077058490';
-
 export const website: string = 'kennygperez.com';
 
 export const experiences: Experience[] = [
@@ -39,12 +35,13 @@ export const experiences: Experience[] = [
 		companyName: 'Elgato (acquisition)',
 		title: 'Software Engineer',
 		period: {
-			start: 'May 2021',
+			start: 'February 2021',
 			end: 'Present',
 		},
 		responsibilities: [
+			"Spearheading the development of the company's first computer vision product within the streaming space. Using C++, OpenCV, NodeJS, React.JS, and Electron.JS.",
 			'Developing the backend with Django on the marketplace.',
-			'Working within the research and development team to create innovative products.',
+			'Enhancing productivity between our German and North American Teams. By creating project requirements from project managers.',
 		],
 	},
 	{
@@ -52,27 +49,14 @@ export const experiences: Experience[] = [
 		title: 'Software Engineer',
 		period: {
 			start: 'January 2018',
-			end: 'May 2021',
+			end: 'February 2021',
 		},
 		responsibilities: [
-			'Developed a new marketplace and computer vision-powered overlay that projected VBI to eventually be acquired by Corsair under Elgato.',
-			'Led and established best practices with Point Zero to improve product quality for high-profile clients.',
-			'Led the development of a proprietary CRM for VBI to increase productivity and solve workflow issues to communicate with clients more effectively.',
+			'Engineered a new marketplace and computer vision-powered overlay that projected VBI to eventually be acquired by Corsair under Elgato.',
+			'Integrated best practices with Point Zero to improve product quality for high-profile clients.',
+			'Instituted the development of a proprietary CRM, from the ground up. Increased productivity and solve workflow issues to communicate with clients more effectively.',
 			'Provided mentorship for junior developers.',
-			'Established development best practices at VBI.',
-		],
-	},
-	{
-		companyName: 'University of Central Florida (UCF)',
-		title: 'Techranger', // - Center for Distributed Learning (CDL)
-		period: {
-			start: 'January 2018',
-			end: 'August 2020',
-		},
-		responsibilities: [
-			"Led the department's venture into mobile app development.",
-			'Built cost-effective solutions for students and teachers.',
-			'Contributed to UCF Open projects, like CanvasAPI and UDOIT.',
+			'Amplified communication between Stakeholders and the engineering team. By turning business needs into technical requirements to distribute to the engineering team.',
 		],
 	},
 ];
@@ -115,38 +99,25 @@ export const education: Education = {
 };
 
 export const skills: Skills = {
-	Frontend: [
-		'React.js',
-		'Next.js',
-		'Vue.js',
-		'HTML5/CSS3',
-		'Tailwind CSS',
-		'SCSS',
-	],
+	Frontend: ['React.js', 'Next.js', 'Tailwind CSS', 'SCSS'],
 	Backend: [
 		'TypeScript',
 		'Node.js',
 		'Serverless Framework',
-		'Python (Django)',
-		'PHP',
-		'Java',
-		'WordPress',
+		'Python',
+		'Django Rest Framework',
 	],
 	Mobile: ['React Native', 'Expo'],
-	Native: ['Electron.js', 'Java', 'C/C++'],
-	Database: ['MySQL', 'PostgreSQL', 'MongoDB'],
+	Native: ['Electron.js'],
+	Database: ['MySQL', 'DynamoDB', 'PostgreSQL', 'MongoDB'],
 	DevOps: [
-		'AWS (EC2, S3, CodeDeploy, ElasticBeanstalk, Route 53, Lambda)',
-		'Docker',
-		'GitHub Actions',
 		'Git',
+		'AWS',
+		'Docker',
+		'GitHub',
+		'Terraform',
+		'GitLab',
 		'NGINX',
-		'Linux',
+		'Ubuntu',
 	],
 };
-
-export const awards: string[] = [
-	'UCF DDL CDL Collaboration Award for UCF Here',
-];
-
-export const languages: string[] = ['English', 'Spanish'];
